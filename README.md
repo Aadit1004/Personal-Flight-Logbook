@@ -1,2 +1,2 @@
 # Personal-Flight-Logbook
-A website to view a map of completed flights, a report page to view statistics based on your flights, and have a list of flights than you can filter, add, or remove.
+A website to view a map of completed flights, an analytics page to view statistics based on your flights, and a hub where you can view, filter, add, or remove flights.
