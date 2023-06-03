@@ -7,7 +7,36 @@
     <title>Flight Analytics</title>
 </head>
 <body>
-    <h1>Flight Analytics</h1> <br>
-    <a href="./index.html">Go Back</a>
+    <header>
+        <h1>Flight Analytics</h1>
+        <nav>
+            <ul class="Navigation Menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./hub.html">Flight Hub</a></li>
+                <li><a href="./analytics.html">Flight Analytics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="mainStatistics">
+            <h3 id="totalTimeText">Total Time Flown: <span id="totalTimeValueHr">0</span> hr <span id="totalTimeValueMin">0</span> <span id="zeroOrNotMins">min</span></h3>
+            <h5 id="totalTimeDaysText">Days: <span id="totalTimeDaysVal">0</span></h5>
+            <h5 id="totalTimeWeeksText">Weeks: <span id="totalTimeWeeksVal">0</span></h5>
+                <br>
+            <h3 id="totalDistanceText">Total Distance Flown: <span id="totalDistanceValue">0</span> km</h3>
+            <h5 id="timesAroundEarthText"><span id="timesAroundEarthValue">0.00</span>x around the Earth</h5>
+            <h5 id="distanceToSunText"><span id="distanceToSunValue">0.00</span>x to Sun</h5>
+                <br>
+            <h3 id="numberOfFlightsText">Number of Flights: <span id="numberOfFlightsValue">0</span></h3>
+            <h5 id="numberOfFlightsIntl">International: <span id="internationalVal">0</span></h5>
+            <h5 id="numberOfFlightsDomestic">Domestic: <span id="domesticVal">0</span></h5>
+        </div>
+        <div id="moreStatistics">
+            <!-- TODO -->
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

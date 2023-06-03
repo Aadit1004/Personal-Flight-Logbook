@@ -7,7 +7,36 @@
     <title>Flight Hub</title>
 </head>
 <body>
-    <h1>Flight Hub</h1><br>
-    <a href="./index.html">Go Back</a>
+    <header>
+        <h1>Flight Hub</h1>
+        <nav>
+            <ul class="Navigation Menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./hub.html">Flight Hub</a></li>
+                <li><a href="./analytics.html">Flight Analytics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table id="flightsTable">
+            <thead>
+                <tr>
+                    <td>Flight Number</td>
+                    <td>Origin</td>
+                    <td>Destination</td>
+                    <td>Flight Time</td>
+                    <td>Airline</td>
+                    <td>Aircraft</td>
+                    <td>Distance</td>
+                </tr>
+            </thead>
+            <tbody id="flightsTableBody">
+                <!-- List of Flights go here -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <!-- Add footer links here -->
+    </footer>
 </body>
 </html>
