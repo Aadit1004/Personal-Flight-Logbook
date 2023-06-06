@@ -1,2 +1,4 @@
 # Personal-Flight-Logbook
 A website to view a map of completed flights, an analytics page to view statistics based on your flights, and a hub where you can view, filter, add, or remove flights.
+
+This project was to get an intro to web development and to practice HTML, CSS, and Javascript but mainly focusing on the backend with Javascript. I wanted to also have a project where I could combine it with my interest in aviation so I decided to create a Personal Flight Tracker/Logbook. My goals are to create a page using the Google Maps API to visualize all the flights completed, having a page where I can see the list of flights and have an option to add, remove and filter flights, and an analytics page to show statistics based on all the flights data. I self learned all languages using Codecademy to practice.

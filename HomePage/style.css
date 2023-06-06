@@ -2,6 +2,47 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #4a148c;
+    height: 80px;
+    width: 100%;
+}
+
+label.Main-Title {
+    color: #fafafa;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fafafa;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: #7b1fa2;
+    transition: .5s;
 }
 
 .filter {
@@ -16,7 +57,23 @@
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
-.footer, h1, #Navigation-Menu {
+.button, .Main-Title, #Navigation-Menu {
     position: relative;
     z-index: 3;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+  }
+
+button {
+    text-align: center;
+    color: #fafafa;
+    background: #7b1fa2;
+    padding: 8px 21px;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: all 0.2s ease;
 }
