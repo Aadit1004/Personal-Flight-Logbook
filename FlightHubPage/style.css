@@ -44,3 +44,8 @@ th {
 tr:nth-child(even) {
     background: #eeeeee;
 }
+
+.footer, h1, #Navigation-Menu {
+    position: relative;
+    z-index: 3;
+}
